@@ -1,13 +1,12 @@
 
+import 'package:flutt/main3.dart';
 import 'package:flutter/material.dart';
 
-import 'main2.dart';
 
 
 
 Future<void> main()  {
   WidgetsFlutterBinding.ensureInitialized();
-
   runApp(MyApp());
 }
 
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyApp2 (),
+      home:main3 (),
        debugShowCheckedModeBanner: false,
     );
   }

@@ -6,7 +6,7 @@ import 'package:admob_flutter/admob_flutter.dart';
 
 class AdsManger{
 
-   static bool _testmode= false;
+   static bool _testmode= true;
 
 
    static String get appIdEx{

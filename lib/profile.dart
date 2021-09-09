@@ -81,8 +81,9 @@ class _PostsScreenState extends State<profile> {
 
 
     RewardedVideoAd.instance.load(
-        adUnitId: 'ca-app-pub-7757590907378676/2778691799',
-       // AdmobReward.testAdUnitId,
+        adUnitId:'	ca-app-pub-3940256099942544/5224354917',
+        //'ca-app-pub-7757590907378676/2778691799',
+        //AdmobReward.testAdUnitId,
         // "ca-app-pub-9553580055895935/1690226045",
         targetingInfo: MobileAdTargetingInfo());
 
@@ -327,9 +328,7 @@ class _PostsScreenState extends State<profile> {
                                               height:5
                                           ),
 
-                                           Container(
-                                                  child:Text('this mode is available only ' +' in Cairo Egypt ',style:TextStyle(color:Colors.white,fontSize:14,fontWeight:FontWeight.w400,fontStyle:FontStyle.italic),)
-                                              ),
+
 
                                           SizedBox(
                                               height:20
@@ -368,8 +367,9 @@ class _PostsScreenState extends State<profile> {
 
                                                    , onPressed: () {
                                                  videoAd.load(
-                                                     adUnitId: //AdmobReward.testAdUnitId,
-                                                   'ca-app-pub-7757590907378676/2778691799',
+                                                     adUnitId:	'ca-app-pub-3940256099942544/5224354917'
+                                                   //AdmobReward.testAdUnitId,
+                                                  // 'ca-app-pub-7757590907378676/2778691799',
                                                      //RewardedVideoAd
                                                       //   .testAdUnitId
                                                  );
@@ -392,10 +392,7 @@ class _PostsScreenState extends State<profile> {
                                                    saveData2(money);
                                                  };
                                                }
-
                                                ),
-
-
     ),
                                               SizedBox(
                                                 width:80,
