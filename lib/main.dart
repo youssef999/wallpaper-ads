@@ -1,12 +1,15 @@
 
 import 'package:flutt/main3.dart';
 import 'package:flutter/material.dart';
+import 'package:unity_ads_plugin/unity_ads.dart';
 
 
-
-
-Future<void> main()  {
+void main()  {
   WidgetsFlutterBinding.ensureInitialized();
+  // UnityAds.init(
+  //   gameId: '4608602',
+  //  // testMode: true,
+  // );
   runApp(MyApp());
 }
 

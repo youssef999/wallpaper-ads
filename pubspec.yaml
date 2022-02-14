@@ -15,7 +15,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.0+1
+version: 1.0.1+2
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -29,23 +29,15 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   url_launcher: ^5.4.2
+  unity_ads_plugin: ^0.2.4
   flutter_cached_pdfview: ^0.2.0
-  firebase_admob: ^0.10.0
   vertical_card_pager: ^1.5.0
-  firebase_messaging:
-  firebase_core: ^0.5.0
-  firebase_auth: ^0.18.3
-  cloud_firestore: ^0.14.3
-  firebase_storage: ^4.0.0
-  firebase_analytics: ^6.2.0
   image_picker: ^0.6.7+14
   path: ^1.8.0
   shared_preferences: ^0.5.12+4
   carousel_pro: ^1.0.0
-  admob_flutter: ^0.3.2
   curved_navigation_bar: ^0.3.7
   provider: ^4.3.2+2
-  flutter_native_admob: ^2.1.0+3
   characters: ^1.0.0
   collapsible_sidebar: ^1.0.5
   permission_handler: ^5.0.1+1
@@ -61,10 +53,10 @@ dev_dependencies:
 flutter_icons:
     android: "launcher_icon"
     ios: true
-    image_path: "assets/dyx.jpg"
+    image_path: "assets/b1.jfif"
 
 flutter_launcher_name:
-    name: "yugiX Cards"
+    name: "babil 2"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

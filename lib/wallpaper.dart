@@ -1,4 +1,5 @@
 
+import 'package:flutt/adsManger.dart';
 import 'package:flutter/services.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter/material.dart';
@@ -10,6 +11,7 @@ class wallpaper extends StatefulWidget {
 }
 
 class _wallpaperState extends State<wallpaper> {
+
 List<String>image=[
   'assets/s1.jpg','assets/s2.jpg','assets/s3.jpg','assets/s4.jpg',
       'assets/s7.jpg','assets/s8.jpg','assets/s9.jpg','assets/s10.jpg','assets/s11.jpg'
@@ -55,9 +57,9 @@ String _wallpaperAsset="unknown";
                 context: context,
                 builder: (_) => new AlertDialog(
                   title: new Text(" done "),
-                  content: new Text("Wallpaper set Successfully "),
+                  content: new Text("تم تغيير الخلفية بنجاح "),
                 ));
-          }, child:Text('Set AS Wallpaper ',style:TextStyle(color:Colors.black,fontSize:16,fontWeight:FontWeight.w700),))
+          }, child:Text('تعيين كخلفية للهاتف ',style:TextStyle(color:Colors.black,fontSize:16,fontWeight:FontWeight.w700),))
         ]
       );
     });
@@ -98,6 +100,16 @@ Future<void> setWallpaperFromAsset( String path) async {
         ), itemBuilder:(BuildContext context,int index){
           return Column(
             children: [
+             /* Container(
+                  //width:310,
+                  height:60,
+                  child:NativeAdmob(
+                    adUnitID:AdsManger.nativeAdunit,
+                    numberAds:3,
+                    controller: _nativeAd,
+                    type:NativeAdmobType.banner,
+                  )
+              ),*/
               Card(
                 elevation:10,
                       child: InkWell(child: Image.asset(image[index]),
